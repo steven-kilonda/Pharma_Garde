@@ -1,0 +1,2514 @@
+{
+  "meta": [
+    {
+      "id": "1",
+      "titre": "PharmaGarde Pointe-Noire",
+      "semaineDu": "2026-09-14",
+      "semaineAu": "2026-09-20",
+      "source": "Liste hebdomadaire officielle des pharmacies de garde (diffusion du 14/09/2026)",
+      "majLe": "2026-09-17",
+      "note": "Gardes, coordonnées et téléphones : données sources. Horaires, services, stocks et FAQ : valeurs de démonstration à confirmer."
+    }
+  ],
+  "arrondissements": [
+    {
+      "id": "1",
+      "numero": "1",
+      "nom": "Lumumba"
+    },
+    {
+      "id": "2",
+      "numero": "2",
+      "nom": "Mvou-Mvou"
+    },
+    {
+      "id": "3",
+      "numero": "3",
+      "nom": "Tié-Tié"
+    },
+    {
+      "id": "4",
+      "numero": "4",
+      "nom": "Loandjili"
+    },
+    {
+      "id": "5",
+      "numero": "5",
+      "nom": "Mongo-Mpoukou"
+    },
+    {
+      "id": "6",
+      "numero": "6",
+      "nom": "Ngoyo"
+    }
+  ],
+  "pharmacies": [
+    {
+      "id": "1",
+      "code": "PG-001",
+      "nom": "Maria",
+      "arrondissementId": 1,
+      "quartier": "Centre-ville",
+      "repere": "Port, derrière CFAO",
+      "telephones": [
+        "04 439 65 50"
+      ],
+      "latitude": -4.7971479,
+      "longitude": 11.8401035,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "2",
+      "code": "PG-002",
+      "nom": "4 Chemins",
+      "arrondissementId": 1,
+      "quartier": "KM4",
+      "repere": "KM4, rond-point Boundji",
+      "telephones": [
+        "05 799 60 60"
+      ],
+      "latitude": -4.8070412,
+      "longitude": 11.864349,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "3",
+      "code": "PG-003",
+      "nom": "L'Olivier",
+      "arrondissementId": 1,
+      "quartier": "Centre-ville",
+      "repere": "Vers le CEG Les Trois Glorieuses",
+      "telephones": [
+        "05 510 44 66"
+      ],
+      "latitude": -4.7912118,
+      "longitude": 11.854421,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "4",
+      "code": "PG-004",
+      "nom": "Palais",
+      "arrondissementId": 1,
+      "quartier": "Centre-ville",
+      "repere": "Face hôtel Elaïs",
+      "telephones": [
+        "06 624 43 43"
+      ],
+      "latitude": -4.7976864,
+      "longitude": 11.8456278,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "5",
+      "code": "PG-005",
+      "nom": "Tshiminu",
+      "arrondissementId": 1,
+      "quartier": "Grand Marché",
+      "repere": "Face bureau des accidents",
+      "telephones": [
+        "04 056 86 86"
+      ],
+      "latitude": -4.7869862,
+      "longitude": 11.8645142,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "6",
+      "code": "PG-006",
+      "nom": "Pont Saint-Pierre",
+      "arrondissementId": 1,
+      "quartier": "Grand Marché",
+      "repere": "Bd du 13 août 1963",
+      "telephones": [
+        "06 695 14 41"
+      ],
+      "latitude": -4.7891759,
+      "longitude": 11.8622355,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "7",
+      "code": "PG-007",
+      "nom": "Long Champ",
+      "arrondissementId": 1,
+      "quartier": "Aéroport",
+      "repere": "Route de l'aéroport",
+      "telephones": [
+        "05 656 08 08"
+      ],
+      "latitude": -4.8179924,
+      "longitude": 11.8766406,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "8",
+      "code": "PG-008",
+      "nom": "Valencia",
+      "arrondissementId": 1,
+      "quartier": "Tchibamba",
+      "repere": "Marché Tchibamba",
+      "telephones": [
+        "05 655 99 79"
+      ],
+      "latitude": -4.8272869,
+      "longitude": 11.875054,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "9",
+      "code": "PG-009",
+      "nom": "Lajag",
+      "arrondissementId": 1,
+      "quartier": "Centre-ville",
+      "repere": "Derrière SICOF",
+      "telephones": [
+        "06 592 24 24"
+      ],
+      "latitude": -4.7933154,
+      "longitude": 11.8612493,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "10",
+      "code": "PG-010",
+      "nom": "Agape",
+      "arrondissementId": 1,
+      "quartier": "Mpita",
+      "repere": "Face maison d'arrêt",
+      "telephones": [
+        "04 472 72 72",
+        "06 436 98 98"
+      ],
+      "latitude": -4.8047276,
+      "longitude": 11.8541307,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "11",
+      "code": "PG-011",
+      "nom": "La Grande",
+      "arrondissementId": 1,
+      "quartier": "Och",
+      "repere": "OCH, ex-Baguette d'Or",
+      "telephones": [
+        "05 722 05 77"
+      ],
+      "latitude": -4.8067011,
+      "longitude": 11.8447106,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "12",
+      "code": "PG-012",
+      "nom": "Planète",
+      "arrondissementId": 2,
+      "quartier": "Grand Marché",
+      "repere": "Av. Moe Prat",
+      "telephones": [
+        "05 371 64 02"
+      ],
+      "latitude": -4.7863352,
+      "longitude": 11.8697911,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "13",
+      "code": "PG-013",
+      "nom": "Ray",
+      "arrondissementId": 2,
+      "quartier": "Mvou-Mvou",
+      "repere": "Face hôtel Pontegrine",
+      "telephones": [
+        "05 312 67 51"
+      ],
+      "latitude": -4.7691669,
+      "longitude": 11.8637941,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "14",
+      "code": "PG-014",
+      "nom": "Sympathique",
+      "arrondissementId": 2,
+      "quartier": "Mvou-Mvou",
+      "repere": "Sympathique",
+      "telephones": [
+        "05 656 03 42",
+        "06 485 63 20"
+      ],
+      "latitude": -4.7745114,
+      "longitude": 11.8800535,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "15",
+      "code": "PG-015",
+      "nom": "Six Cadrans",
+      "arrondissementId": 3,
+      "quartier": "Tié-Tié",
+      "repere": "Carrefour CNSS, Fouks",
+      "telephones": [
+        "04 446 21 87",
+        "05 511 60 49"
+      ],
+      "latitude": -4.7842806,
+      "longitude": 11.8895827,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "16",
+      "code": "PG-016",
+      "nom": "Essengo",
+      "arrondissementId": 3,
+      "quartier": "Tié-Tié",
+      "repere": "Rond-point Fond Tié-Tié",
+      "telephones": [
+        "05 656 03 01"
+      ],
+      "latitude": -4.8031362,
+      "longitude": 11.8721347,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "17",
+      "code": "PG-017",
+      "nom": "Loandjili District",
+      "arrondissementId": 4,
+      "quartier": "Loandjili",
+      "repere": "Entrée Makayabou",
+      "telephones": [
+        "04 446 32 27",
+        "05 699 40 07"
+      ],
+      "latitude": -4.7627736,
+      "longitude": 11.8960504,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-16"
+    },
+    {
+      "id": "18",
+      "code": "PG-018",
+      "nom": "Djo.M",
+      "arrondissementId": 4,
+      "quartier": "Mbota",
+      "repere": "Terminus Mbota Carlos",
+      "telephones": [
+        "06 554 41 07"
+      ],
+      "latitude": -4.7756828,
+      "longitude": 11.8485567,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "19",
+      "code": "PG-019",
+      "nom": "Revival",
+      "arrondissementId": 4,
+      "quartier": "Loandjili",
+      "repere": "Rond-point Loandjili",
+      "telephones": [
+        "04 054 15 01"
+      ],
+      "latitude": -4.7620302,
+      "longitude": 11.853972,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "20",
+      "code": "PG-020",
+      "nom": "Raffinerie",
+      "arrondissementId": 5,
+      "quartier": "Raffinerie",
+      "repere": "1er camp",
+      "telephones": [
+        "05 655 99 95"
+      ],
+      "latitude": -4.7463909,
+      "longitude": 11.8592983,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "21",
+      "code": "PG-021",
+      "nom": "Des Jeunes",
+      "arrondissementId": 5,
+      "quartier": "Siafoumou",
+      "repere": "Siafoumou",
+      "telephones": [
+        "05 693 34 58",
+        "06 424 98 55"
+      ],
+      "latitude": -4.7191233,
+      "longitude": 11.8589453,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "22",
+      "code": "PG-022",
+      "nom": "El Shaddaï",
+      "arrondissementId": 5,
+      "quartier": "Songolo",
+      "repere": "Rond-point abattoir",
+      "telephones": [
+        "06 996 37 97"
+      ],
+      "latitude": -4.763403,
+      "longitude": 11.8590872,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "23",
+      "code": "PG-023",
+      "nom": "Mongo-Mpoukou",
+      "arrondissementId": 5,
+      "quartier": "Siafoumou",
+      "repere": "Siafoumou terre jaune",
+      "telephones": [
+        "06 806 24 86"
+      ],
+      "latitude": -4.7132515,
+      "longitude": 11.9154577,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Vaccination",
+        "Conseil pharmaceutique",
+        "Petite chirurgie"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "24",
+      "code": "PG-024",
+      "nom": "Saint Nicolas",
+      "arrondissementId": 5,
+      "quartier": "Vindoulou",
+      "repere": "Espace Kimpelé, RN1 Vindoulou",
+      "telephones": [
+        "05 665 05 34",
+        "06 862 35 66"
+      ],
+      "latitude": -4.7349163,
+      "longitude": 11.9096629,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "07:30",
+          "18:30"
+        ],
+        "mar": [
+          "07:30",
+          "18:30"
+        ],
+        "mer": [
+          "07:30",
+          "18:30"
+        ],
+        "jeu": [
+          "07:30",
+          "18:30"
+        ],
+        "ven": [
+          "07:30",
+          "18:30"
+        ],
+        "sam": [
+          "08:00",
+          "17:00"
+        ],
+        "dim": [
+          "09:00",
+          "12:30"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Prise de tension",
+        "Vaccination"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "25",
+      "code": "PG-025",
+      "nom": "Ngoyo PSP",
+      "arrondissementId": 6,
+      "quartier": "Ngoyo",
+      "repere": "PSP de Ngoyo",
+      "telephones": [
+        "04 432 15 15",
+        "06 759 96 43"
+      ],
+      "latitude": -4.8534978,
+      "longitude": 11.9065428,
+      "garde24h": true,
+      "horaires": {
+        "lun": [
+          "08:00",
+          "19:00"
+        ],
+        "mar": [
+          "08:00",
+          "19:00"
+        ],
+        "mer": [
+          "08:00",
+          "19:00"
+        ],
+        "jeu": [
+          "08:00",
+          "19:00"
+        ],
+        "ven": [
+          "08:00",
+          "19:00"
+        ],
+        "sam": [
+          "08:00",
+          "18:00"
+        ],
+        "dim": [
+          "09:00",
+          "13:00"
+        ]
+      },
+      "services": [
+        "Conseil pharmaceutique",
+        "Tests rapides du paludisme",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-17"
+    },
+    {
+      "id": "26",
+      "code": "PG-026",
+      "nom": "Nouvelle Chrisage",
+      "arrondissementId": 6,
+      "quartier": "Mpaka",
+      "repere": "Face marché Mpaka",
+      "telephones": [
+        "05 656 03 10"
+      ],
+      "latitude": -4.8168541,
+      "longitude": 11.916,
+      "garde24h": false,
+      "horaires": {
+        "lun": [
+          "08:30",
+          "20:00"
+        ],
+        "mar": [
+          "08:30",
+          "20:00"
+        ],
+        "mer": [
+          "08:30",
+          "20:00"
+        ],
+        "jeu": [
+          "08:30",
+          "20:00"
+        ],
+        "ven": [
+          "08:30",
+          "20:00"
+        ],
+        "sam": [
+          "08:30",
+          "20:00"
+        ],
+        "dim": null
+      },
+      "services": [
+        "Prise de tension",
+        "Glycémie capillaire",
+        "Matériel médical"
+      ],
+      "verifieeLe": "2026-09-17"
+    }
+  ],
+  "gardes": [
+    {
+      "id": "1",
+      "pharmacieId": 1,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "2",
+      "pharmacieId": 2,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "3",
+      "pharmacieId": 3,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "4",
+      "pharmacieId": 4,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "5",
+      "pharmacieId": 5,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "6",
+      "pharmacieId": 6,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "7",
+      "pharmacieId": 7,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "8",
+      "pharmacieId": 8,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "9",
+      "pharmacieId": 9,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "10",
+      "pharmacieId": 10,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "11",
+      "pharmacieId": 11,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "12",
+      "pharmacieId": 12,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "13",
+      "pharmacieId": 13,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "14",
+      "pharmacieId": 14,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "15",
+      "pharmacieId": 15,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "16",
+      "pharmacieId": 16,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "17",
+      "pharmacieId": 17,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "18",
+      "pharmacieId": 18,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "19",
+      "pharmacieId": 19,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "20",
+      "pharmacieId": 20,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "21",
+      "pharmacieId": 21,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "22",
+      "pharmacieId": 22,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "23",
+      "pharmacieId": 23,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "24",
+      "pharmacieId": 24,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "25",
+      "pharmacieId": 25,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    },
+    {
+      "id": "26",
+      "pharmacieId": 26,
+      "debut": "2026-09-14",
+      "fin": "2026-09-20"
+    }
+  ],
+  "medicaments": [
+    {
+      "id": "1",
+      "nom": "Paracétamol 500 mg (boîte de 20)",
+      "categorie": "Antalgiques",
+      "prix": 500,
+      "ordonnance": false
+    },
+    {
+      "id": "2",
+      "nom": "Paracétamol 1 g (boîte de 16)",
+      "categorie": "Antalgiques",
+      "prix": 900,
+      "ordonnance": false
+    },
+    {
+      "id": "3",
+      "nom": "Ibuprofène 400 mg (boîte de 20)",
+      "categorie": "Antalgiques",
+      "prix": 900,
+      "ordonnance": false
+    },
+    {
+      "id": "4",
+      "nom": "Diclofénac gel 50 g",
+      "categorie": "Antalgiques",
+      "prix": 1500,
+      "ordonnance": false
+    },
+    {
+      "id": "5",
+      "nom": "Tramadol 50 mg (boîte de 20)",
+      "categorie": "Antalgiques",
+      "prix": 2500,
+      "ordonnance": true
+    },
+    {
+      "id": "6",
+      "nom": "ACT adulte — Artéméther/Luméfantrine 20/120",
+      "categorie": "Antipaludiques",
+      "prix": 2200,
+      "ordonnance": false
+    },
+    {
+      "id": "7",
+      "nom": "ACT enfant — Artéméther/Luméfantrine 20/120",
+      "categorie": "Antipaludiques",
+      "prix": 1800,
+      "ordonnance": false
+    },
+    {
+      "id": "8",
+      "nom": "Dihydroartémisinine/Pipéraquine",
+      "categorie": "Antipaludiques",
+      "prix": 2000,
+      "ordonnance": false
+    },
+    {
+      "id": "9",
+      "nom": "Quinine sulfate 300 mg (boîte de 30)",
+      "categorie": "Antipaludiques",
+      "prix": 1500,
+      "ordonnance": false
+    },
+    {
+      "id": "10",
+      "nom": "Quinine injectable 400 mg/4 ml",
+      "categorie": "Antipaludiques",
+      "prix": 1200,
+      "ordonnance": true
+    },
+    {
+      "id": "11",
+      "nom": "TDR paludisme (test rapide)",
+      "categorie": "Antipaludiques",
+      "prix": 1000,
+      "ordonnance": false
+    },
+    {
+      "id": "12",
+      "nom": "Amoxicilline 500 mg (boîte de 12)",
+      "categorie": "Antibiotiques",
+      "prix": 1200,
+      "ordonnance": false
+    },
+    {
+      "id": "13",
+      "nom": "Amoxicilline/Ac. clavulanique 1 g (boîte de 10)",
+      "categorie": "Antibiotiques",
+      "prix": 3500,
+      "ordonnance": true
+    },
+    {
+      "id": "14",
+      "nom": "Azithromycine 250 mg (boîte de 6)",
+      "categorie": "Antibiotiques",
+      "prix": 2500,
+      "ordonnance": false
+    },
+    {
+      "id": "15",
+      "nom": "Ciprofloxacine 500 mg (boîte de 10)",
+      "categorie": "Antibiotiques",
+      "prix": 1500,
+      "ordonnance": false
+    },
+    {
+      "id": "16",
+      "nom": "Céfixime 400 mg (boîte de 6)",
+      "categorie": "Antibiotiques",
+      "prix": 2500,
+      "ordonnance": true
+    },
+    {
+      "id": "17",
+      "nom": "Métronidazole 250 mg (boîte de 20)",
+      "categorie": "Antibiotiques",
+      "prix": 900,
+      "ordonnance": false
+    },
+    {
+      "id": "18",
+      "nom": "Amlodipine 5 mg (boîte de 30)",
+      "categorie": "Maladies chroniques",
+      "prix": 2500,
+      "ordonnance": true
+    },
+    {
+      "id": "19",
+      "nom": "Losartan 50 mg (boîte de 30)",
+      "categorie": "Maladies chroniques",
+      "prix": 3000,
+      "ordonnance": true
+    },
+    {
+      "id": "20",
+      "nom": "Furosémide 40 mg (boîte de 20)",
+      "categorie": "Maladies chroniques",
+      "prix": 1000,
+      "ordonnance": true
+    },
+    {
+      "id": "21",
+      "nom": "Méthyldopa 250 mg (boîte de 30)",
+      "categorie": "Maladies chroniques",
+      "prix": 2000,
+      "ordonnance": true
+    },
+    {
+      "id": "22",
+      "nom": "Metformine 850 mg (boîte de 30)",
+      "categorie": "Maladies chroniques",
+      "prix": 2000,
+      "ordonnance": true
+    },
+    {
+      "id": "23",
+      "nom": "Insuline rapide (flacon)",
+      "categorie": "Maladies chroniques",
+      "prix": 5500,
+      "ordonnance": true
+    },
+    {
+      "id": "24",
+      "nom": "SRO — sels de réhydratation orale (sachet)",
+      "categorie": "Gastro-entérologie",
+      "prix": 200,
+      "ordonnance": false
+    },
+    {
+      "id": "25",
+      "nom": "Oméprazole 20 mg (boîte de 10)",
+      "categorie": "Gastro-entérologie",
+      "prix": 1200,
+      "ordonnance": false
+    },
+    {
+      "id": "26",
+      "nom": "Dompéridone 10 mg (boîte de 20)",
+      "categorie": "Gastro-entérologie",
+      "prix": 1000,
+      "ordonnance": false
+    },
+    {
+      "id": "27",
+      "nom": "Charbon activé (boîte)",
+      "categorie": "Gastro-entérologie",
+      "prix": 800,
+      "ordonnance": false
+    },
+    {
+      "id": "28",
+      "nom": "Salbutamol spray",
+      "categorie": "Respiratoire",
+      "prix": 2500,
+      "ordonnance": true
+    },
+    {
+      "id": "29",
+      "nom": "Prednisolone 5 mg (boîte de 20)",
+      "categorie": "Respiratoire",
+      "prix": 900,
+      "ordonnance": true
+    },
+    {
+      "id": "30",
+      "nom": "Sirop antitussif (flacon)",
+      "categorie": "Respiratoire",
+      "prix": 1200,
+      "ordonnance": false
+    },
+    {
+      "id": "31",
+      "nom": "Alcool 70° (250 ml)",
+      "categorie": "Premiers soins",
+      "prix": 700,
+      "ordonnance": false
+    },
+    {
+      "id": "32",
+      "nom": "Sérum physiologique (dosette)",
+      "categorie": "Premiers soins",
+      "prix": 500,
+      "ordonnance": false
+    },
+    {
+      "id": "33",
+      "nom": "Compresses stériles (boîte)",
+      "categorie": "Premiers soins",
+      "prix": 600,
+      "ordonnance": false
+    },
+    {
+      "id": "34",
+      "nom": "Solution antiseptique 125 ml",
+      "categorie": "Premiers soins",
+      "prix": 1200,
+      "ordonnance": false
+    },
+    {
+      "id": "35",
+      "nom": "Bande de gaze",
+      "categorie": "Premiers soins",
+      "prix": 500,
+      "ordonnance": false
+    },
+    {
+      "id": "36",
+      "nom": "Fer + acide folique (boîte de 30)",
+      "categorie": "Maternité & vitamines",
+      "prix": 1000,
+      "ordonnance": false
+    },
+    {
+      "id": "37",
+      "nom": "Vitamine C 500 mg",
+      "categorie": "Maternité & vitamines",
+      "prix": 700,
+      "ordonnance": false
+    },
+    {
+      "id": "38",
+      "nom": "Multivitamines sirop enfant",
+      "categorie": "Maternité & vitamines",
+      "prix": 1500,
+      "ordonnance": false
+    }
+  ],
+  "stocks": [
+    {
+      "id": "1",
+      "pharmacieId": 1,
+      "medicaments": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        17,
+        18,
+        20,
+        24,
+        25,
+        27,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        13,
+        23
+      ]
+    },
+    {
+      "id": "2",
+      "pharmacieId": 2,
+      "medicaments": [
+        1,
+        3,
+        6,
+        7,
+        11,
+        12,
+        15,
+        17,
+        18,
+        24,
+        25,
+        29,
+        31,
+        33,
+        34,
+        36,
+        37
+      ],
+      "rupture": [
+        8
+      ]
+    },
+    {
+      "id": "3",
+      "pharmacieId": 3,
+      "medicaments": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        12,
+        13,
+        16,
+        18,
+        19,
+        22,
+        24,
+        25,
+        28,
+        31,
+        33,
+        36
+      ],
+      "rupture": [
+        7
+      ]
+    },
+    {
+      "id": "4",
+      "pharmacieId": 4,
+      "medicaments": [
+        1,
+        3,
+        6,
+        7,
+        9,
+        11,
+        12,
+        17,
+        24,
+        26,
+        27,
+        31,
+        33,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": []
+    },
+    {
+      "id": "5",
+      "pharmacieId": 5,
+      "medicaments": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        18,
+        20,
+        24,
+        25,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37
+      ],
+      "rupture": [
+        22
+      ]
+    },
+    {
+      "id": "6",
+      "pharmacieId": 6,
+      "medicaments": [
+        1,
+        6,
+        7,
+        11,
+        12,
+        15,
+        17,
+        24,
+        25,
+        26,
+        30,
+        31,
+        33,
+        35,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "7",
+      "pharmacieId": 7,
+      "medicaments": [
+        1,
+        3,
+        6,
+        9,
+        11,
+        12,
+        18,
+        24,
+        27,
+        31,
+        33,
+        34,
+        36
+      ],
+      "rupture": [
+        28
+      ]
+    },
+    {
+      "id": "8",
+      "pharmacieId": 8,
+      "medicaments": [
+        1,
+        6,
+        7,
+        9,
+        11,
+        12,
+        17,
+        24,
+        25,
+        31,
+        33,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": []
+    },
+    {
+      "id": "9",
+      "pharmacieId": 9,
+      "medicaments": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10,
+        12,
+        13,
+        16,
+        19,
+        21,
+        24,
+        25,
+        26,
+        28,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "rupture": [
+        9
+      ]
+    },
+    {
+      "id": "10",
+      "pharmacieId": 10,
+      "medicaments": [
+        1,
+        3,
+        6,
+        7,
+        11,
+        12,
+        14,
+        17,
+        18,
+        20,
+        24,
+        25,
+        27,
+        31,
+        33,
+        36,
+        37,
+        38
+      ],
+      "rupture": []
+    },
+    {
+      "id": "11",
+      "pharmacieId": 11,
+      "medicaments": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        23
+      ]
+    },
+    {
+      "id": "12",
+      "pharmacieId": 12,
+      "medicaments": [
+        1,
+        3,
+        6,
+        11,
+        12,
+        24,
+        25,
+        27,
+        31,
+        33,
+        35,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "13",
+      "pharmacieId": 13,
+      "medicaments": [
+        1,
+        6,
+        7,
+        9,
+        12,
+        17,
+        24,
+        26,
+        31,
+        33,
+        36
+      ],
+      "rupture": [
+        11
+      ]
+    },
+    {
+      "id": "14",
+      "pharmacieId": 14,
+      "medicaments": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        11,
+        12,
+        15,
+        24,
+        25,
+        29,
+        31,
+        33,
+        34,
+        36,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "15",
+      "pharmacieId": 15,
+      "medicaments": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        16
+      ]
+    },
+    {
+      "id": "16",
+      "pharmacieId": 16,
+      "medicaments": [
+        1,
+        6,
+        9,
+        11,
+        12,
+        24,
+        25,
+        31,
+        33,
+        35,
+        36,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "17",
+      "pharmacieId": 17,
+      "medicaments": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        13,
+        22
+      ]
+    },
+    {
+      "id": "18",
+      "pharmacieId": 18,
+      "medicaments": [
+        1,
+        3,
+        6,
+        12,
+        17,
+        24,
+        27,
+        31,
+        33,
+        35,
+        36
+      ],
+      "rupture": []
+    },
+    {
+      "id": "19",
+      "pharmacieId": 19,
+      "medicaments": [
+        1,
+        6,
+        7,
+        11,
+        12,
+        18,
+        24,
+        25,
+        31,
+        33,
+        34,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "20",
+      "pharmacieId": 20,
+      "medicaments": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        9,
+        11,
+        12,
+        16,
+        18,
+        20,
+        21,
+        24,
+        25,
+        26,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        8
+      ]
+    },
+    {
+      "id": "21",
+      "pharmacieId": 21,
+      "medicaments": [
+        1,
+        6,
+        11,
+        12,
+        24,
+        25,
+        27,
+        31,
+        33,
+        36,
+        37
+      ],
+      "rupture": []
+    },
+    {
+      "id": "22",
+      "pharmacieId": 22,
+      "medicaments": [
+        1,
+        3,
+        6,
+        9,
+        12,
+        17,
+        24,
+        26,
+        31,
+        33,
+        35
+      ],
+      "rupture": [
+        7
+      ]
+    },
+    {
+      "id": "23",
+      "pharmacieId": 23,
+      "medicaments": [
+        1,
+        6,
+        7,
+        11,
+        12,
+        24,
+        25,
+        31,
+        33,
+        34,
+        36,
+        37,
+        38
+      ],
+      "rupture": []
+    },
+    {
+      "id": "24",
+      "pharmacieId": 24,
+      "medicaments": [
+        1,
+        3,
+        6,
+        12,
+        15,
+        24,
+        25,
+        29,
+        31,
+        33,
+        35,
+        36
+      ],
+      "rupture": []
+    },
+    {
+      "id": "25",
+      "pharmacieId": 25,
+      "medicaments": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        17,
+        18,
+        20,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "rupture": [
+        13
+      ]
+    },
+    {
+      "id": "26",
+      "pharmacieId": 26,
+      "medicaments": [
+        1,
+        6,
+        11,
+        12,
+        24,
+        25,
+        31,
+        33,
+        35,
+        37
+      ],
+      "rupture": [
+        9
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "categorie": "Comment ça marche",
+      "question": "Comment savoir quelle pharmacie est de garde ce soir ?",
+      "reponse": "Le planning est publié chaque semaine par l'organisation des pharmaciens de Pointe-Noire. L'onglet « Pharmacies » affiche les officines de garde de la semaine en cours ; les badges « De garde · 24h/24 » ou « De garde · sur appel » indiquent le niveau de service. En cas de doute, appelez toujours avant de vous déplacer."
+    },
+    {
+      "id": "2",
+      "categorie": "Comment ça marche",
+      "question": "Faut-il créer un compte pour utiliser le site ?",
+      "reponse": "Non. PharmaGarde est un service libre et gratuit : aucune inscription, aucune donnée personnelle. Votre position n'est utilisée que localement, dans votre navigateur, pour trier les pharmacies par distance."
+    },
+    {
+      "id": "3",
+      "categorie": "Comment ça marche",
+      "question": "Les horaires affichés sont-ils fiables ?",
+      "reponse": "Les plannings de garde sont vérifiés par téléphone avant publication — la date de vérification est affichée sur chaque fiche. Les horaires d'ouverture habituels restent indicatifs : en cas de doute, appelez l'officine."
+    },
+    {
+      "id": "4",
+      "categorie": "Pharmacies de garde",
+      "question": "Le service de garde est-il payant ?",
+      "reponse": "Non. La garde est une obligation réglementaire : l'accès à l'officine et la délivrance des médicaments suivent les prix officiels. Aucun frais supplémentaire n'est lié à la garde elle-même."
+    },
+    {
+      "id": "5",
+      "categorie": "Pharmacies de garde",
+      "question": "Que faire si la pharmacie de garde est fermée ?",
+      "reponse": "Vérifiez d'abord le badge sur sa fiche : de garde 24h/24, ouverte en journée, ou sur appel (à appeler avant de se déplacer). Si une officine listée est injoignable ou fermée, signalez-le depuis la page Urgences. En urgence vitale, composez le 118 (sapeurs-pompiers)."
+    },
+    {
+      "id": "6",
+      "categorie": "Pharmacies de garde",
+      "question": "Pourquoi certaines pharmacies n'apparaissent pas ?",
+      "reponse": "Seules les officines de la liste hebdomadaire officielle dont le numéro public a pu être vérifié sont publiées. Celles écartées faute de numéro joignable ne peuvent pas être affichées."
+    },
+    {
+      "id": "7",
+      "categorie": "Médicaments & prix",
+      "question": "Puis-je acheter mes médicaments sur le site ?",
+      "reponse": "Non. PharmaGarde n'est pas une pharmacie en ligne : il vous oriente vers l'officine qui dispose du produit. L'achat se fait toujours sur place, avec l'avis d'un pharmacien."
+    },
+    {
+      "id": "8",
+      "categorie": "Médicaments & prix",
+      "question": "Les prix affichés sont-ils ceux que je paierai ?",
+      "reponse": "Les prix indicatifs en FCFA sont donnés à titre informatif et peuvent varier selon les officines et les lots. Seul le prix affiché en pharmacie fait foi."
+    },
+    {
+      "id": "9",
+      "categorie": "Géolocalisation & carte",
+      "question": "Ma position est-elle enregistrée ?",
+      "reponse": "Non. La géolocalisation est demandée uniquement pour calculer des distances et reste dans votre navigateur. Rien n'est transmis à aucun serveur."
+    },
+    {
+      "id": "10",
+      "categorie": "Géolocalisation & carte",
+      "question": "Pourquoi la distance indiquée est-elle approximative ?",
+      "reponse": "Les distances sont calculées « à vol d'oiseau » entre votre position et l'officine. Le temps de trajet réel dépend de la circulation et de l'état des routes."
+    },
+    {
+      "id": "11",
+      "categorie": "Pour les pharmacies",
+      "question": "Je suis pharmacien : comment apparaître dans le planning ?",
+      "reponse": "Le planning hebdomadaire est établi par votre organisation professionnelle. Une fois la liste publiée, vérifiez vos horaires et coordonnées par téléphone : la fiche est mise à jour après vérification."
+    },
+    {
+      "id": "12",
+      "categorie": "Pour les pharmacies",
+      "question": "Comment corriger une information sur ma fiche ?",
+      "reponse": "Utilisez le formulaire de signalement en page Urgences (type « Horaires ou informations erronées »). Les corrections sont appliquées à la prochaine mise à jour des données."
+    }
+  ],
+  "numerosUrgence": [
+    {
+      "id": "1",
+      "label": "Police secours",
+      "numero": "117",
+      "description": "Urgences nécessitant l'intervention de la police"
+    },
+    {
+      "id": "2",
+      "label": "Sapeurs-pompiers",
+      "numero": "118",
+      "description": "Incendie, accident, assistance aux victimes"
+    }
+  ],
+  "signalements": []
+}
