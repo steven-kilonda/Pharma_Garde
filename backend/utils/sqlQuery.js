@@ -79,7 +79,6 @@ export const deleteMetaQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // ARRONDISSEMENT
 // ============================================================
@@ -141,7 +140,6 @@ export const deleteArrondissementQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // PHARMACIE
 // ============================================================
@@ -194,7 +192,7 @@ export const createPharmacieQuery = `
   RETURNING *
 `;
 
-// SELECT ALL
+// SELECT ALL - PAGINATION
 export const getAllPharmaciesQuery = `
   SELECT
     p.id,
@@ -227,8 +225,8 @@ export const getAllPharmaciesQuery = `
           CASE
             WHEN ph.ouvert = TRUE THEN
               json_build_array(
-                TO_CHAR(ph.heure_ouverture,'HH24:MI'),
-                TO_CHAR(ph.heure_fermeture,'HH24:MI')
+                TO_CHAR(ph.heure_ouverture, 'HH24:MI'),
+                TO_CHAR(ph.heure_fermeture, 'HH24:MI')
               )
             ELSE NULL
           END
@@ -256,6 +254,14 @@ export const getAllPharmaciesQuery = `
   FROM pharmacie p
 
   ORDER BY p.nom ASC
+
+  LIMIT $1 OFFSET $2
+`;
+ 
+// COUNT ALL PHARMACIE
+export const countPharmaciesQuery = `
+  SELECT COUNT(*) AS total
+  FROM pharmacie
 `;
 
 // SELECT BY ID
@@ -346,7 +352,6 @@ export const deletePharmacieQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // TELEPHONE PHARMACIE
 // ============================================================
@@ -426,7 +431,6 @@ export const deletePharmacieTelephoneQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // SERVICE
 // ============================================================
@@ -484,7 +488,6 @@ export const deleteServiceQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // PHARMACIE / SERVICE
@@ -576,7 +579,6 @@ export const deletePharmacieServiceQuery = `
     AND service_id = $2
   RETURNING *
 `;
-
 
 // ============================================================
 // HORAIRE PHARMACIE
@@ -696,7 +698,6 @@ export const deletePharmacieHoraireQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // GARDE
@@ -838,7 +839,6 @@ export const deleteGardeQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // MEDICAMENT
 // ============================================================
@@ -929,7 +929,6 @@ export const deleteMedicamentQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // STOCK
@@ -1031,7 +1030,6 @@ export const deleteStockQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // STOCK / MEDICAMENT
@@ -1155,7 +1153,6 @@ export const deleteStockMedicamentQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // FAQ
 // ============================================================
@@ -1237,7 +1234,6 @@ export const deleteFaqQuery = `
   RETURNING *
 `;
 
-
 // ============================================================
 // NUMERO D'URGENCE
 // ============================================================
@@ -1306,7 +1302,6 @@ export const deleteNumeroUrgenceQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // SIGNALEMENT
@@ -1468,7 +1463,6 @@ export const deleteSignalementQuery = `
   WHERE id = $1
   RETURNING *
 `;
-
 
 // ============================================================
 // INDEX
