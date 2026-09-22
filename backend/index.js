@@ -1,10 +1,12 @@
 import express from "express";
-import cors from "cors";
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import cors from 'cors';
 import dotenv from "dotenv";
 import pharmacieRoute from './routes/pharmacies.js';
 import arrondissementRoute from './routes/arrondissements.js';
-import { initializeDatabase } from "./utils/database.js";
-
+import { initializeDatabase } from './utils/database.js';
 dotenv.config();
 
 
@@ -13,7 +15,6 @@ dotenv.config();
 ========================================================= */
 
 const app = express();
-
 
 /* =========================================================
    PORT
@@ -58,6 +59,14 @@ app.use(
   arrondissementRoute
 );
 
+
+app.use("/api/pharmacies", pharmacieRoute);
+app.use("/api/arrondissements", arrondissementRoute);
+
+/* FRONTEND STATIQUE */
+app.use(express.static(path.join(__dirname, "..", "frontend")));
+
+/* ROUTE 404 — ne rien mettre de statique après cette ligne */
 
 /* =========================================================
    ROUTE 404
