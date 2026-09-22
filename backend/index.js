@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import pharmacieRoute from "./rootes/pharmacies.js";
-import arrondissementRoute from "./rootes/arrondissements.js";
+import pharmacieRoute from './routes/pharmacies.js';
+import arrondissementRoute from './routes/arrondissements.js';
 import { initializeDatabase } from "./utils/database.js";
 
 dotenv.config();
