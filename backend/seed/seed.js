@@ -13,7 +13,7 @@ const realigner = (table) =>
 
 async function main() {
     await initializeDatabase();
-    
+
     const data = JSON.parse(
         await readFile(
             path.join(__dirname, '..', 'data', 'pharmaGarde.json'),
@@ -133,6 +133,25 @@ async function main() {
             `INSERT INTO numero_urgence(nom, numero, description) VALUES($1,$2,$3)`,
             [n.label, n.numero, n.description],
         );
+
+    
+    // Mode démo : aligne gardes + meta sur la semaine en cours (lundi → dimanche)
+    if (process.argv.includes('--semaine-courante')) {
+        await query(`
+        UPDATE garde SET
+            debut = date_trunc('week', CURRENT_DATE)::date,
+            fin   = date_trunc('week', CURRENT_DATE)::date + 6
+    `);
+        await query(`
+        UPDATE meta SET
+            semaine_du = date_trunc('week', CURRENT_DATE)::date,
+            semaine_au = date_trunc('week', CURRENT_DATE)::date + 6
+    `);
+        console.log(
+            'Gardes + meta recalés sur la semaine en cours (mode démo)',
+        );
+    }
+
     console.log('faq + urgences OK — seed terminé.');
 }
 
