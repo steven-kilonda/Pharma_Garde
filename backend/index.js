@@ -7,6 +7,8 @@ import dotenv from "dotenv";
 import pharmacieRoute from './routes/pharmacies.js';
 import arrondissementRoute from './routes/arrondissements.js';
 import { initializeDatabase } from './utils/database.js';
+import metaRoute from './routes/meta.js';
+import gardeRoute from './routes/gardes.js';
 dotenv.config();
 
 
@@ -62,6 +64,8 @@ app.use(
 
 app.use("/api/pharmacies", pharmacieRoute);
 app.use("/api/arrondissements", arrondissementRoute);
+app.use('/api/meta', metaRoute);
+app.use('/api/gardes', gardeRoute);
 
 /* FRONTEND STATIQUE */
 app.use(express.static(path.join(__dirname, "..", "frontend")));

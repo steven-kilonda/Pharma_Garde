@@ -1,4 +1,5 @@
 import pg from "pg";
+pg.types.setTypeParser(1082, (v) => v);
 import dotenv from "dotenv";
 
 dotenv.config();
