@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Médicaments et prix à Pointe-Noire — PharmaGarde</title>
+        <meta
+            name="description"
+            content="Prix indicatifs en FCFA des médicaments courants à Pointe-Noire, avec disponibilité par pharmacie. Aucune vente en ligne : appelez la pharmacie de garde."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body data-page="medicaments">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <header class="page-head">
+                <div class="wrap">
+                    <nav class="crumbs">
+                        <a href="index.html">Accueil</a> › Médicaments
+                    </nav>
+                    <h1>Médicaments et prix</h1>
+                    <p class="fiche-lieu" style="max-width: 64ch">
+                        Prix indicatifs en FCFA, relevés auprès des pharmacies.
+                        Aucune vente en ligne — appelez toujours avant de vous
+                        déplacer.
+                    </p>
+                    <form
+                        class="search"
+                        role="search"
+                        action="medicaments.html"
+                        method="get"
+                        style="max-width: 560px"
+                    >
+                        <label class="sr" for="q">Nom d'un médicament</label>
+                        <div class="search-box">
+                            <span data-icon="search" data-size="20"></span>
+                            <input
+                                id="q"
+                                name="q"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Paracétamol, amoxicilline, artésunate…"
+                            />
+                            <button class="btn btn-primary" type="submit">
+                                Rechercher
+                            </button>
+                        </div>
+                    </form>
+                    <div class="cat-chips" id="chips"></div>
+                    <div class="head-badges" id="filtre-ph"></div>
+                </div>
+            </header>
+
+            <div class="wrap layout-2col">
+                <aside>
+                    <div class="filters" id="filters"></div>
+                </aside>
+                <section>
+                    <div class="toolbar">
+                        <p id="compte" class="maj-note" aria-live="polite"></p>
+                        <p id="maj-note" class="maj-note"></p>
+                    </div>
+                    <div id="resultats" style="margin-top: 14px"></div>
+                    <div id="vide" hidden class="empty">
+                        <h2>Aucun médicament ne correspond</h2>
+                        <p>Essayez un autre mot-clé ou réinitialisez.</p>
+                        <a href="medicaments.html" class="btn btn-dark"
+                            >Réinitialiser</a
+                        >
+                    </div>
+                    <nav class="pg" id="pg" aria-label="Pages"></nav>
+                </section>
+            </div>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="js/pages/medicaments.js" defer></script>
+    </body>
+</html>
