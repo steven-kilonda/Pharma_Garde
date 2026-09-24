@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            Pharmacies à Pointe-Noire : de garde, ouvertes, par arrondissement
+        </title>
+        <meta
+            name="description"
+            content="Liste vérifiée des pharmacies de Pointe-Noire : filtres par arrondissement, quartier, statut et services, tri par distance, appel et itinéraire en un geste."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
+    <body data-page="pharmacies">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <header class="page-head">
+                <div class="wrap">
+                    <nav class="crumbs" id="crumbs" aria-label="Fil d'Ariane">
+                        <a href="index.html">Accueil</a> › Pharmacies
+                    </nav>
+                    <div class="ph-row">
+                        <div>
+                            <h1 id="titre">Pharmacies</h1>
+                            <div class="head-badges" id="head-badges"></div>
+                        </div>
+                        <nav class="seg" aria-label="Vue">
+                            <a
+                                href="#"
+                                aria-current="page"
+                                onclick="return false;"
+                                >Liste</a
+                            >
+                            <a id="vue-carte" href="carte.html">Carte</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <div class="wrap layout-2col">
+                <aside>
+                    <div class="filters" id="filters">
+                        <div class="filters-head">
+                            <h2>Filtres</h2>
+                            <button
+                                id="f-reset"
+                                class="text-link"
+                                type="button"
+                                style="font-size: 13.5px"
+                            >
+                                Réinitialiser
+                            </button>
+                        </div>
+                        <!-- rempli par pharmacies.js -->
+                    </div>
+                </aside>
+
+                <section>
+                    <div class="toolbar">
+                        <p id="compte" class="maj-note" aria-live="polite"></p>
+                        <p id="maj-note" class="maj-note"></p>
+                    </div>
+                    <div id="resultats" style="margin-top: 14px"></div>
+                    <div id="vide" hidden class="empty">
+                        <h2>Aucune pharmacie ne correspond</h2>
+                        <p>Élargissez les filtres ou réinitialisez-les.</p>
+                        <a href="pharmacies.html" class="btn btn-dark"
+                            >Réinitialiser les filtres</a
+                        >
+                    </div>
+                    <div class="foot-note">
+                        <p>
+                            Une information vous semble fausse&nbsp;? Aidez-nous
+                            à garder les gardes à jour.
+                        </p>
+                        <a href="urgence.html#signaler" class="btn btn-outline"
+                            >Signaler une erreur</a
+                        >
+                    </div>
+                    <nav class="pg" id="pg" aria-label="Pages"></nav>
+                </section>
+            </div>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="/js/utils.js" defer></script>
+        <script src="/js/api.js" defer></script>
+        <script src="/js/components.js" defer></script>
+        <script src="/js/pages/pharmacies.js" defer></script>
+    </body>
+</html>

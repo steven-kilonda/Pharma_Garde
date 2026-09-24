@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            PharmaGarde Pointe-Noire : les pharmacies de garde de la semaine
+        </title>
+        <meta
+            name="description"
+            content="Trouvez la pharmacie de garde la plus proche à Pointe-Noire : planning de la semaine, quartiers, itinéraire en un geste."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+
+    <body data-page="accueil">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <!-- Héros -->
+            <section class="hero">
+                <div class="hero-cross" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" width="100%" height="100%">
+                        <path
+                            d="M36 0h28v36h36v28H64v36H36V64H0V36h36z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                </div>
+                <div class="wrap hero-inner">
+                    <h1>Trouvez une pharmacie de garde à Pointe-Noire</h1>
+                    <p class="lead">
+                        Les pharmacies de garde de la semaine, quartier par
+                        quartier, avec l'itinéraire en un geste.
+                    </p>
+
+                    <form
+                        class="search"
+                        role="search"
+                        action="/pharmacies.html"
+                        method="get"
+                    >
+                        <label class="sr" for="q"
+                            >Rechercher une pharmacie, un quartier ou une
+                            avenue</label
+                        >
+                        <div class="search-box">
+                            <span data-icon="search" data-size="20"></span>
+                            <input
+                                id="q"
+                                name="q"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Nom de pharmacie, quartier ou avenue"
+                                aria-controls="suggest"
+                            />
+                            <button class="btn btn-primary" type="submit">
+                                Rechercher
+                            </button>
+                        </div>
+                        <ul id="suggest" class="suggest" hidden></ul>
+                    </form>
+                    <p class="hint">
+                        Par exemple :
+                        <a href="pharmacies.html?q=Maria">Maria</a>,
+                        <a href="pharmacies.html?q=Ti%C3%A9-Ti%C3%A9"
+                            >Tié-Tié</a
+                        >,
+                        <a
+                            href="pharmacies.html?q=Rond-point%20Fond%20Ti%C3%A9-Ti%C3%A9"
+                            >rond-point Fond Tié-Tié</a
+                        >.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Chiffres -->
+            <section class="stats" aria-label="La semaine en chiffres">
+                <div class="wrap"><dl id="stats"></dl></div>
+            </section>
+
+            <!-- De garde ce soir -->
+            <section class="section" aria-labelledby="t-soir">
+                <div class="wrap">
+                    <div class="section-head">
+                        <div>
+                            <h2 id="t-soir">De garde ce soir</h2>
+                            <p id="semaine-label"></p>
+                        </div>
+                        <a
+                            class="text-link"
+                            id="all-link"
+                            href="/pharmacies.html?garde=1"
+                            >Voir toutes les pharmacies de garde</a
+                        >
+                    </div>
+                    <div class="cards-3" id="gardes-cards"></div>
+                    <p class="note">
+                        Appelez avant de vous déplacer : les modalités de nuit
+                        varient d'une pharmacie à l'autre.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Zones de couverture -->
+            <section class="zones-band" aria-labelledby="t-zones">
+                <div class="wrap">
+                    <div class="section-head">
+                        <div>
+                            <h2 id="t-zones">Zones de couverture</h2>
+                            <p>
+                                Choisissez un arrondissement pour voir ses
+                                quartiers et ses pharmacies de garde.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zones" id="zones"></div>
+                </div>
+            </section>
+
+            <!-- Médicament -->
+            <section class="section" aria-labelledby="t-med">
+                <div class="wrap med">
+                    <div>
+                        <h2 id="t-med">Vous cherchez un médicament&nbsp;?</h2>
+                        <p>
+                            Consultez les prix des médicaments courants, puis
+                            appelez une pharmacie de garde pour vérifier la
+                            disponibilité.
+                        </p>
+                        <form
+                            class="search"
+                            role="search"
+                            action="/medicaments.html"
+                            method="get"
+                        >
+                            <label class="sr" for="qm"
+                                >Nom d'un médicament</label
+                            >
+                            <div class="search-box">
+                                <span data-icon="search" data-size="20"></span>
+                                <input
+                                    id="qm"
+                                    name="q"
+                                    type="search"
+                                    autocomplete="off"
+                                    placeholder="Paracétamol, amoxicilline, artésunate…"
+                                />
+                                <button class="btn btn-primary" type="submit">
+                                    Rechercher
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="med-art" aria-hidden="true">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4tdqqXVbQ1M_qxPRhIkUGIj1UdPssLy8-n0f-VHwsVTnxpI0hED1VT5Gu&s=10"
+                            alt=""
+                            style="width: 500px; height: 300px"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pharmaciens -->
+            <section class="section" aria-labelledby="t-pro">
+                <div class="wrap">
+                    <div class="pro on-dark">
+                        <div>
+                            <h2 id="t-pro">
+                                Vous êtes pharmacien à Pointe-Noire&nbsp;?
+                            </h2>
+                            <p>
+                                Inscrivez votre pharmacie ou corrigez votre
+                                fiche, pour que les patients vous trouvent quand
+                                vous êtes de garde.
+                            </p>
+                        </div>
+                        <div class="pro-actions">
+                            <a
+                                class="btn btn-primary"
+                                href="/urgence.html#signaler"
+                                >Inscrire mon pharmacie</a
+                            >
+                            <a
+                                class="btn btn-ghost"
+                                href="/urgence.html#signaler"
+                                >Corriger une fiche</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="./js/pages/accueil.js" defer></script>
+    </body>
+</html>

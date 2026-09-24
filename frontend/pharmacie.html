@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Pharmacie — PharmaGarde Pointe-Noire</title>
+        <meta
+            name="description"
+            content="Fiche pharmacie à Pointe-Noire : horaires, statut de garde en temps réel, stock, itinéraire et appel en un geste."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+    </head>
+    <body data-page="pharmacies">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <header class="page-head">
+                <div class="wrap">
+                    <nav class="crumbs" id="crumbs" aria-label="Fil d'Ariane">
+                        <a href="index.html">Accueil</a> ›
+                        <a href="pharmacies.html">Pharmacies</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="wrap" id="fiche">
+                <p class="note">Chargement de la fiche…</p>
+            </div>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="js/pages/pharmacie.js" defer></script>
+    </body>
+</html>
