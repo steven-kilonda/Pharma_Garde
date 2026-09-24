@@ -9,6 +9,12 @@ import arrondissementRoute from './routes/arrondissements.js';
 import { initializeDatabase } from './utils/database.js';
 import metaRoute from './routes/meta.js';
 import gardeRoute from './routes/gardes.js';
+import medicamentRoute from './routes/medicaments.js';
+import stockRoute from './routes/stocks.js';
+import faqRoute from './routes/faq.js';
+import numeroUrgenceRoute from './routes/numerourgence.js';
+import signalementRoute from './routes/signalements.js';
+
 dotenv.config();
 
 
@@ -51,21 +57,16 @@ app.use(
    ROUTES
 ========================================================= */
 
-app.use(
-  "/api/pharmacies",
-  pharmacieRoute
-);
-
-app.use(
-  "/api/arrondissements",
-  arrondissementRoute
-);
-
-
 app.use("/api/pharmacies", pharmacieRoute);
-app.use("/api/arrondissements", arrondissementRoute);
+app.use('/api/arrondissements', arrondissementRoute);
+app.use('/api/pharmacies', pharmacieRoute);
 app.use('/api/meta', metaRoute);
 app.use('/api/gardes', gardeRoute);
+app.use('/api/medicaments', medicamentRoute);
+app.use('/api/stocks', stockRoute);
+app.use('/api/faq', faqRoute);
+app.use('/api/numerourgence', numeroUrgenceRoute);
+app.use('/api/signalements', signalementRoute);
 
 /* FRONTEND STATIQUE */
 app.use(express.static(path.join(__dirname, "..", "frontend")));
