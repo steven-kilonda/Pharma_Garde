@@ -3,8 +3,8 @@
     {
       "id": "1",
       "titre": "PharmaGarde Pointe-Noire",
-      "semaineDu": "2026-09-14",
-      "semaineAu": "2026-09-20",
+      "semaineDu": "2026-09-24",
+      "semaineAu": "2026-10-01",
       "source": "Liste hebdomadaire officielle des pharmacies de garde (diffusion du 14/09/2026)",
       "majLe": "2026-09-17",
       "note": "Gardes, coordonnées et téléphones : données sources. Horaires, services, stocks et FAQ : valeurs de démonstration à confirmer."
@@ -1328,158 +1328,158 @@
     {
       "id": "1",
       "pharmacieId": 1,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "2",
       "pharmacieId": 2,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "3",
       "pharmacieId": 3,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "4",
       "pharmacieId": 4,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "5",
       "pharmacieId": 5,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "6",
       "pharmacieId": 6,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "7",
       "pharmacieId": 7,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "8",
       "pharmacieId": 8,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "9",
       "pharmacieId": 9,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "10",
       "pharmacieId": 10,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "11",
       "pharmacieId": 11,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "12",
       "pharmacieId": 12,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "13",
       "pharmacieId": 13,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "14",
       "pharmacieId": 14,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "15",
       "pharmacieId": 15,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "16",
       "pharmacieId": 16,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "17",
       "pharmacieId": 17,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "18",
       "pharmacieId": 18,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "19",
       "pharmacieId": 19,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "20",
       "pharmacieId": 20,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "21",
       "pharmacieId": 21,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "22",
       "pharmacieId": 22,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "23",
       "pharmacieId": 23,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "24",
       "pharmacieId": 24,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "25",
       "pharmacieId": 25,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     },
     {
       "id": "26",
       "pharmacieId": 26,
-      "debut": "2026-09-14",
-      "fin": "2026-09-20"
+      "debut": "2026-09-24",
+      "fin": "2026-10-01"
     }
   ],
   "medicaments": [
