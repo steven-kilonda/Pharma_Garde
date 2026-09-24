@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Carte des pharmacies — PharmaGarde Pointe-Noire</title>
+        <meta
+            name="description"
+            content="Carte interactive des pharmacies de Pointe-Noire : de garde, ouvertes, par arrondissement, avec appel et itinéraire en un geste."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+    </head>
+    <body data-page="carte">
+        <a class="skip" href="#carte">Aller à la carte</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <div class="carte-zone">
+                <div id="carte"></div>
+
+                <div class="carte-filtres">
+                    <div class="carte-search">
+                        <span data-icon="search" data-size="18"></span>
+                        <input
+                            id="cf-q"
+                            type="search"
+                            autocomplete="off"
+                            placeholder="Pharmacie ou quartier…"
+                            aria-label="Rechercher une pharmacie ou un quartier"
+                        />
+                    </div>
+                    <button type="button" id="cf-garde" class="filtre-btn" aria-pressed="false">
+                        De garde
+                    </button>
+                    <button type="button" id="cf-ouvert" class="filtre-btn" aria-pressed="false">
+                        Ouvertes
+                    </button>
+                    <select id="cf-arr" class="filtre-select" aria-label="Filtrer par arrondissement">
+                        <option value="">Tous les arrondissements</option>
+                    </select>
+                </div>
+
+                <aside class="carte-panel" id="panel">
+                    <div class="cp-head">
+                        <div>
+                            <h1 class="cp-titre" id="cp-titre">Pharmacies</h1>
+                            <p class="cp-compte" id="cp-compte"></p>
+                        </div>
+                        <button
+                            type="button"
+                            id="cp-toggle"
+                            class="cp-toggle"
+                            aria-expanded="true"
+                            aria-controls="cp-liste"
+                            aria-label="Replier le panneau des résultats"
+                        >
+                            ‹
+                        </button>
+                    </div>
+                    <div class="cp-liste" id="cp-liste"></div>
+                </aside>
+
+                <div class="carte-ctrl">
+                    <button type="button" id="c-geo" class="ctrl-btn" title="Centrer sur ma position">◎</button>
+                    <button type="button" id="c-zin" class="ctrl-btn" title="Zoomer">+</button>
+                    <button type="button" id="c-zout" class="ctrl-btn" title="Dézoomer">−</button>
+                </div>
+
+                <div class="carte-legend" aria-hidden="true">
+                    <span><i class="lg-pin lg-actif"></i> De garde / ouverte</span>
+                    <span><i class="lg-pin lg-ferme"></i> Fermée</span>
+                </div>
+
+                <a href="urgence.html" class="sos" aria-label="Urgences, SOS">SOS</a>
+            </div>
+        </main>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="js/pages/carte.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Urgences — PharmaGarde Pointe-Noire</title>
+        <meta
+            name="description"
+            content="Numéros d'urgence (pompiers 118, police 117), pharmacies de garde ce soir et signalement d'une pharmacie fermée ou d'une information erronée à Pointe-Noire."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body data-page="urgence">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <!-- Numéros d'urgence, accessibles immédiatement -->
+            <section class="urg-hero" aria-labelledby="t-urg">
+                <div class="wrap">
+                    <nav class="crumbs">
+                        <a href="index.html">Accueil</a> › Urgences
+                    </nav>
+                    <h1 id="t-urg">Urgence&nbsp;? Appelez d'abord les secours.</h1>
+                    <p class="lead">
+                        En urgence vitale, ne cherchez pas : composez le 118
+                        (pompiers) ou le 117 (police). Les pharmacies de garde
+                        interviennent ensuite pour les soins courants.
+                    </p>
+                    <div class="urg-grid" id="urg-grid">
+                        <a class="urg-card" href="tel:118">
+                            <small>Sapeurs-pompiers</small>
+                            <span class="num">118</span>
+                            <p>Incendie, accident, assistance aux victimes</p>
+                            <span class="appeler btn btn-ghost">Appeler le 118</span>
+                        </a>
+                        <a class="urg-card" href="tel:117">
+                            <small>Police secours</small>
+                            <span class="num">117</span>
+                            <p>Urgences nécessitant l'intervention de la police</p>
+                            <span class="appeler btn btn-ghost">Appeler le 117</span>
+                        </a>
+                        <div class="urg-card" style="cursor:default">
+                            <small>Pharmacies de garde</small>
+                            <span class="num" style="font-size:1.4rem;line-height:1.3">Ce soir, à Pointe-Noire</span>
+                            <p id="urg-garde-txt">Chargement…</p>
+                            <span class="appeler"><a class="btn btn-primary" href="pharmacies.html?garde=1">Voir qui est de garde</a></span>
+                        </div>
+                    </div>
+                    <div class="urg-grid" id="urg-extra"></div>
+                </div>
+            </section>
+
+            <!-- Signaler -->
+            <section class="urg-section" id="signaler" aria-labelledby="t-sig">
+                <div class="wrap">
+                    <h2 id="t-sig">Signaler un problème</h2>
+                    <p class="lead">
+                        Une pharmacie fermée alors qu'elle était de garde&nbsp;?
+                        Des horaires ou un prix erronés&nbsp;? Chaque signalement
+                        est vérifié avant publication.
+                    </p>
+                    <div class="urg-form-wrap">
+                        <form class="urg-form" id="form-signaler" novalidate>
+                            <p class="err" id="form-err" role="alert"></p>
+                            <p class="ok" id="form-ok" role="status"></p>
+                            <label>Type de problème
+                                <select name="type" required>
+                                    <option value="hors_ligne">Pharmacie injoignable ou fermée (de garde)</option>
+                                    <option value="infos_erronees">Horaires ou informations erronées</option>
+                                    <option value="erreur_prix">Prix incorrect</option>
+                                    <option value="pharmacie_absente">pharmacie manquante</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </label>
+                            <label>Pharmacie concernée <small>(facultatif)</small>
+                                <select name="pharmacieId" id="sig-pharmacie">
+                                    <option value="">— Aucune en particulier —</option>
+                                </select>
+                            </label>
+                            <label>Description <span class="req">*</span>
+                                <textarea name="message" required minlength="10"
+                                    placeholder="Décrivez ce que vous avez constaté (10 caractères minimum)"></textarea>
+                            </label>
+                            <label>Votre nom <small>(facultatif)</small>
+                                <input type="text" name="nom" maxlength="255" autocomplete="name" />
+                            </label>
+                            <label>Votre téléphone <small>(facultatif — pour vous recontacter)</small>
+                                <input type="tel" name="telephone" autocomplete="tel"
+                                    placeholder="0X XXX XX XX" />
+                            </label>
+                            <button class="btn btn-dark" type="submit" id="sig-submit">
+                                Envoyer le signalement
+                            </button>
+                            <small>Aucune donnée n'est publiée publiquement&nbsp;: votre signalement est traité par l'équipe.</small>
+                        </form>
+                        <aside class="urg-side">
+                            <div class="urg-info">
+                                <strong>Pourquoi signaler&nbsp;?</strong><br />
+                                Le planning vient de l'organisation des
+                                pharmaciens. Les informations de terrain —
+                                pharmacie fermée, numéro injoignable — ne
+                                peuvent venir que de vous.
+                            </div>
+                            <div class="urg-info">
+                                <strong>Traitement</strong><br />
+                                Chaque signalement reçoit un statut&nbsp;:
+                                nouveau, en cours, traité ou rejeté. Les
+                                corrections sont appliquées à la prochaine mise
+                                à jour du planning.
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Inscrire (ancre #inscrire du footer) -->
+            <section class="urg-section" id="inscrire" aria-labelledby="t-insc" style="padding-bottom:48px">
+                <div class="wrap">
+                    <h2 id="t-insc">Vous êtes pharmacien&nbsp;?</h2>
+                    <p class="lead">
+                        Faites référencer votre pharmacie ou corrigez votre fiche
+                        via le même formulaire&nbsp;: choisissez « pharmacie
+                        manquante » ou « Informations erronées ».
+                    </p>
+                </div>
+            </section>
+
+            <!-- Planning de secours (repli offline / aide-mémoire) -->
+            <section class="urg-section" id="numeros" aria-labelledby="t-num" style="padding-bottom:56px">
+                <div class="wrap">
+                    <h2 id="t-num">Que faire si le site ne répond plus&nbsp;?</h2>
+                    <p class="lead">
+                        Le planning complet reste disponible même si PharmaGarde
+                        est inaccessible.
+                    </p>
+                    <div class="urg-planning">
+                        <strong>Procédure de secours</strong>
+                        <ol>
+                            <li>Appelez l'pharmacie de garde la plus proche (liste affichée ci-dessus si possible).</li>
+                            <li>À défaut, contactez le CHU de Pointe-Noire ou le centre de santé le plus proche.</li>
+                            <li>En urgence vitale&nbsp;: <strong>118</strong> (pompiers) ou <strong>117</strong> (police).</li>
+                            <li>Les numéros d'urgence fonctionnent même sans réseau data ni accès à ce site.</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="js/pages/urgence.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Questions fréquentes — PharmaGarde Pointe-Noire</title>
+        <meta
+            name="description"
+            content="Comment fonctionnent les gardes, qui est de garde ce soir, comment vérifier ou signaler une pharmacie : toutes les réponses sur PharmaGarde."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body data-page="faq">
+        <a class="skip" href="#contenu">Aller au contenu</a>
+        <div data-header></div>
+
+        <main id="contenu">
+            <section class="faq-hero">
+                <div class="hero-cross" aria-hidden="true">
+                    <svg viewBox="0 0 100 100" width="100%" height="100%">
+                        <path d="M36 0h28v36h36v28H64v36H36V64H0V36h36z" fill="currentColor" />
+                    </svg>
+                </div>
+                <div class="wrap">
+                    <nav class="crumbs" style="margin-bottom:12px">
+                        <a href="index.html">Accueil</a> › FAQ
+                    </nav>
+                    <h1>Des questions&nbsp;? On y répond.</h1>
+                    <div class="search">
+                        <label class="sr" for="fq">Filtrer les questions</label>
+                        <div class="search-box">
+                            <span data-icon="search" data-size="20"></span>
+                            <input
+                                id="fq"
+                                type="search"
+                                autocomplete="off"
+                                placeholder="Tapez un mot-clé : garde, prix, géolocalisation…"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="wrap faq-layout">
+                <aside class="faq-sommaire" aria-label="Sommaire de la FAQ">
+                    <p class="som-titre">Par thème</p>
+                    <ul id="faq-som"></ul>
+                </aside>
+                <div id="faq-liste">
+                    <p class="note">Chargement des questions…</p>
+                </div>
+            </div>
+        </main>
+
+        <div data-footer></div>
+
+        <script src="js/utils.js" defer></script>
+        <script src="js/api.js" defer></script>
+        <script src="js/components.js" defer></script>
+        <script src="js/pages/faq.js" defer></script>
+    </body>
+</html>
